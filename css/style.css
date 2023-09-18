@@ -21,10 +21,13 @@ body {
 
 .img-fluid {
     display: flex;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    margin: 1px;
-
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .presentacion{ 
     background-color: #a8718a;
