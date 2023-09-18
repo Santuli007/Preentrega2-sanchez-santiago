@@ -1,0 +1,108 @@
+/*paleta de colores generada en coolors
+.color1 { #da104d }
+.color2 { #fbcc94 };
+.color3 { #821d3a };
+.color4 { #a8718a };
+.color5 { #c3a3ca };*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*index*/
+
+body {
+    margin: 0;
+    align-content: center;
+    text-align: center;
+    background-color: #fbccfb
+}
+
+.img-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+
+}
+.presentacion{ 
+    background-color: #a8718a;
+    height: 50vh;
+    margin: 5%;
+    border: 5px, solid, #821d3a;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #b293b9;
+    border: solid, 1px;
+    border-color: #821d3a;
+    display: flex;
+    
+}
+
+/*
+.corte{
+    size: 15em;
+    padding: 1vh;
+} 
+*/
+
+
+
+
+
+
+
+
+/*PAGINA DE CONTACTO*/
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	width: 500px; 
+	height: auto;
+	margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+	background-color: #a8718a ; 
+	padding-left: 30px;
+	padding-right: 30px;
+	border: #da104d;
+	outline: 0;
+	border: solid; 	
+}
+.contact-form div h1{
+	font-size: 3rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border: 4px;
+}
+label{
+	width: 100%;
+	
+}
+input{
+	width: 100%;
+	background-color: #b293b9;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	
+}
+
+/*PAGINA AMBIENTES CONSTRUIDOS*/
+
+.video-container{
+    display: grid;
+    grid: gap 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+    grid-auto-rows: minmax(315px auto);
+    gap: 10px;
+    padding: 10px;
+    grid-auto-flow: dense;
+    grid-area: auto;
+}
+
