@@ -160,6 +160,6 @@ input{
 /*Pagina ambientes ocntruidos*/
 
 .fluid-video{
-	max-width: 100%;
-    height: auto;
+	width: 100%;
+    max-height: auto;
 }
