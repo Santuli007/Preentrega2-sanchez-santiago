@@ -153,3 +153,13 @@ input{
 .notice{
     height: 300px;
 }
+.bienes{
+    padding-top: 1vh;
+}
+
+/*Pagina ambientes ocntruidos*/
+
+.fluid-video{
+	max-width: 100%;
+    height: auto;
+}
