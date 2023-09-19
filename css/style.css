@@ -46,6 +46,16 @@ body {
     
 }
 
+
+@media (min-width: 680px){
+	.img-fluid {
+        padding-left: 0vh;
+        padding-right: 0vh;
+        border: solid;
+        margin: auto;
+
+    }
+}
 /*
 .corte{
     size: 15em;
@@ -107,7 +117,15 @@ input{
     grid-auto-flow: dense;
     grid-area: auto;
 }
+@media (min-width: 680px){
 
+
+.fluid-video{
+    grid-row: auto;
+    grid-auto-rows: max-content;
+
+    }
+}
 /*pagina tierra-nat*/
 
 .container .box-1 .box-2 .box-3
