@@ -4,57 +4,53 @@
 .color3 { #821d3a };
 .color4 { #a8718a };
 .color5 { #c3a3ca };*/
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/*index*/
 
+/*index*/
 body {
-    margin: 0;
-    
-    text-align: center;
-    background-color: #fbccfb
+  margin: 0;
+  text-align: center;
+  background-color: #fbccfb;
 }
 
 .img-fluid {
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 0%;
-    margin-right: 100px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 0%;
+  margin-right: 100px;
 }
-.presentacion{ 
-    background-color: #a8718a;
-    height: 50vh;
-    margin: 5%;
-    border: 5px, solid, #821d3a;
-    display: flex;
-    flex-direction: column;
+
+.presentacion {
+  background-color: #a8718a;
+  height: 50vh;
+  margin: 5%;
+  border: 5px, solid, #821d3a;
+  display: flex;
+  flex-direction: column;
 }
 
 .box {
-    background-color: #b293b9;
-    border: solid, 1px;
-    border-color: #821d3a;
-    display: flex;
-    
+  background-color: #b293b9;
+  border: solid, 1px;
+  border-color: #821d3a;
+  display: flex;
 }
 
-
-@media (min-width: 680px){
-	.img-fluid {
-        padding-left: 0vh;
-        padding-right: 0vh;
-        border: solid;
-        margin: auto;
-
-    }
+@media (min-width: 680px) {
+  .img-fluid {
+    padding-left: 0vh;
+    padding-right: 0vh;
+    border: solid;
+    margin: auto;
+  }
 }
 /*
 .corte{
@@ -62,122 +58,110 @@ body {
     padding: 1vh;
 } 
 */
-
-
-
-
-
-
-
-
 /*PAGINA DE CONTACTO*/
-
 .contact-form {
-	display: flex;
-	flex-direction: column;
-	
-	height: auto;
-	margin: 10px auto;
-	border-radius: 10px;  
-	padding-top: 30px;
-	padding-bottom: 20px;  
-	background-color: #a8718a ; 
-	
-	border: #da104d;
-	outline: 0;
-	border: solid; 	
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #a8718a;
+  border: #da104d;
+  outline: 0;
+  border: solid;
 }
-.contact-form div h1{
-	font-size: 3rem;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	border: 4px;
+.contact-form div h1 {
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 4px;
 }
-label{
-	width: 100%;
-	
+
+label {
+  width: 100%;
 }
-input{
-	width: 100%;
-	background-color: antiquewhite;
-	padding: 1px;
-	border-radius: 2px;
-	margin-bottom: 10px;
-	
+
+input {
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 2px;
+  margin-bottom: 10px;
 }
 
 /*PAGINA AMBIENTES CONSTRUIDOS*/
-
-.video-container{
-    display: grid;
-    grid: gap 1fr;
-    grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
-    grid-auto-rows: minmax(315px auto);
-    gap: 10px;
-    padding: 10px;
-    grid-auto-flow: dense;
-    grid-area: auto;
+.video-container {
+  display: grid;
+  grid: gap 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+  grid-auto-rows: minmax(315px auto);
+  gap: 10px;
+  padding: 10px;
+  grid-auto-flow: dense;
+  grid-area: auto;
 }
-@media (min-width: 680px){
 
-
-.fluid-video{
+@media (min-width: 680px) {
+  .fluid-video {
     grid-row: auto;
     grid-auto-rows: max-content;
-
-    }
+  }
 }
 /*pagina tierra-nat*/
+.container .box-1 .box-2 .box-3 .box-4 .box-5 .box-6 {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: repeat(6, 100px);
+  gap: 1rem;
+  background-position: center center;
+  background-size: cover;
+  grid-template-areas: "box1 box1 box2" "box1 box1 box2" "box3 box3 box4" "box5 box6 box6" "box5 box6 box6";
+}
 
-.container .box-1 .box-2 .box-3
-.box-4 .box-5 .box-6{
-    display: grid;
-    grid-template-columns: 100px auto 100px;
-    grid-template-rows: repeat(6, 100px);
-    gap: 1rem;
-    background-position: center center;
-    background-size: cover;
-    grid-template-areas:    "box1 box1 box2"
-                            "box1 box1 box2"
-                            "box3 box3 box4"
-                            "box5 box6 box6"
-                            "box5 box6 box6"
-}
 .box-1 {
-    grid-area: box1;
-    background-color: #821d3a;
+  grid-area: box1;
+  background-color: #821d3a;
 }
+
 .box-2 {
-    grid-area: box1;
-    background-color: #821d3a;
+  grid-area: box1;
+  background-color: #821d3a;
 }
+
 .box-3 {
-    grid-area: box1;
-    background-color: #821d3a;
+  grid-area: box1;
+  background-color: #821d3a;
 }
+
 .box-4 {
-    grid-area: box1;
-    background-color: #821d3a;
+  grid-area: box1;
+  background-color: #821d3a;
 }
+
 .box-5 {
-    grid-area: box1;
-    background-color: #821d3a;
+  grid-area: box1;
+  background-color: #821d3a;
 }
+
 .box-6 {
-    grid-area: box1;
-    background-color: #821d3a;
+  grid-area: box1;
+  background-color: #821d3a;
 }
 
 /*pagina TIERRA Y GOB COM*/
-.notice{
-    height: 300px;
+.notice {
+  height: 300px;
 }
-.bienes{
-    padding-top: 1vh;
+
+.bienes {
+  padding-top: 1vh;
 }
 
 /*Pagina ambientes ocntruidos*/
-
-.fluid-video{
-	width: 100%;
-    max-height: auto;
+.fluid-video {
+  width: 100%;
+  max-height: auto;
 }
+
+/*# sourceMappingURL=style.css.map */
